@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/svg-xml">
+    <title>Page b</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="bi bi-braces fs-5"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li><a class="nav-link" href="page1.html" target="_blank"><i class="pe-1 bi bi-window"></i>Page 1</a></li>
+                    <li><a class="nav-link" href="page-a.html"><i class="pe-1 bi bi-file-earmark-music"></i>Page a</a></li>
+                    <li><a class="nav-link" href="page-b.html"><i class="pe-1 bi bi-bank"></i>Page b</a></li>
+                    <li><a class="nav-link" href="page-c.html"><i class="pe-1 bi bi-calendar2-heart"></i>Page c</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Exercise 2b -->
+    <div class="container-fluid py-2">
+        <div class="row row-cols-2">
+            <!-- Table -->
+            <div class="d-none d-md-block col-md-8 border border-2 border-primary-subtle table-responsive p-2">
+                <h2 class="text-center text-light bg-primary py-2">Conversor de divisas</h2>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">
+                            <div class="d-flex flex-column align-items-center gap-1">
+                                <i class="fi fi-us"></i>
+                                <p class="m-0">USD</p>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <div class="d-flex flex-column align-items-center gap-1">
+                                <i class="fi fi-eu"></i>
+                                <p class="m-0">EUR</p>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <div class="d-flex flex-column align-items-center gap-1">
+                                <i class="fi fi-gb"></i>
+                                <p class="m-0">GBP</p>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <div class="d-flex flex-column align-items-center gap-1">
+                                <i class="fi fi-jp"></i>
+                                <p class="m-0">JPN</p>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <div class="d-flex flex-column align-items-center gap-1">
+                                <i class="fi fi-cn"></i>
+                                <p class="m-0">CNY</p>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <div class="d-flex flex-column align-items-center gap-1">
+                                <i class="fi fi-au"></i>
+                                <p class="m-0">AUD</p>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <div class="d-flex flex-column align-items-center gap-1">
+                                <i class="fs-5 crypto-icon color btg text-warning"></i>
+                                <p class="m-0">BTC</p>
+                            </div>
+                        </th>
+                        <th scope="col">
+                            <div class="d-flex flex-column align-items-center gap-1">
+                                <i class="fi fi-ar"></i>
+                                <p class="m-0">ARS</p>
+                            </div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <div class="row justify-content-center">
+                                    <div class="d-none d-xl-flex col-6 justify-content-center align-items-center">
+                                        <i class="fi fi-us"></i>
+                                    </div>
+                                    <div class="row col">
+                                        <p class="m-0 p-0 col-4">1</p>
+                                        <p class="m-0 p-0 col-8">USD</p>
+                                        <p class="m-0 p-0 col-12">Inverse</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="row justify-content-center">
+                                    <div class="d-none d-xl-flex col-6 justify-content-center align-items-center">
+                                        <i class="fi fi-eu"></i>
+                                    </div>
+                                    <div class="row col">
+                                        <p class="m-0 p-0 col-4">1</p>
+                                        <p class="m-0 p-0 col-8">EUR</p>
+                                        <p class="m-0 p-0 col-4">Inverse</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="row justify-content-center">
+                                    <div class="d-none d-xl-flex col-6 justify-content-center align-items-center">
+                                        <i class="fi fi-gb"></i>
+                                    </div>
+                                    <div class="row col">
+                                        <p class="m-0 p-0 col-4">1</p>
+                                        <p class="m-0 p-0 col-8">GPB</p>
+                                        <p class="m-0 p-0 col-4">Inverse</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <div class="row justify-content-center">
+                                    <div class="d-none d-xl-flex col-6 justify-content-center align-items-center">
+                                        <i class="fi fi-ru"></i>
+                                    </div>
+                                    <div class="row col">
+                                        <p class="m-0 p-0 col-4">1</p>
+                                        <p class="m-0 p-0 col-8">RUB</p>
+                                        <p class="m-0 p-0 col-4">Inverse</p>
+                                    </div>
+                                </div>
+                            </th>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                            <td class="text-primary">1.000000<br>1.000000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Currency calculator -->
+            <div class="col-12 col-md-4 p-2">
+                <div class="bg-primary bg-opacity-75 text-light">
+                    <h5 class="bg-primary text-center border-bottom border-light p-2">Conversor De Divisas</h5>
+                    <form action="#" class="p-3">
+                        <div class="mb-3">
+                            <!-- Amount of currency -->
+                            <label class="form-label" for="quantity">Cantidad</label>
+                            <input class="form-control text-end" id="quantity" name="currency-quantity" placeholder="Cantidad" type="text">
+                        </div>
+                        <!-- Currency -->
+                        <div class="mb-3"> <!-- From -->
+                            <label class="form-label" for="from-currency-type">De</label>
+                            <select class="form-select text-center" id="from-currency-type" name="currency-type"></select>
+                        </div>
+                        <div class="mb-3"> <!-- To -->
+                            <label class="form-label" for="to-currency-type">A</label>
+                            <select class="form-select text-center" id="to-currency-type" name="currency-type"></select>
+                        </div>
+                        <div class="mb-3"> <!-- Converted currency -->
+                            <label for="show-converted-currency" hidden></label>
+                            <input class="text-center form-control"
+                                   id="show-converted-currency"
+                                   name="converted-currency"
+                                   type="text">
+                        </div>
+                        <button class="w-100 mb-3 btn btn-warning position-relative" type="submit">
+                            Submit
+                            <i class="bi bi-arrow-right position-absolute end-0 bottom-0 fs-4 pe-3 text-light" id="button-right-corner"></i>
+                        </button>
+                    </form>
+                </div>
+                <script src="assets/js/fillSelectWithOptions.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

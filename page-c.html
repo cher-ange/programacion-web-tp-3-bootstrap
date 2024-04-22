@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/svg-xml">
+    <title>Page c</title>
+</head>
+<body>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="bi bi-braces fs-5"></i></a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+                <li><a class="nav-link" href="page1.html" target="_blank"><i class="pe-1 bi bi-window"></i>Page 1</a>
+                </li>
+                <li><a class="nav-link" href="page-a.html"><i class="pe-1 bi bi-file-earmark-music"></i>Page a</a></li>
+                <li><a class="nav-link" href="page-b.html"><i class="pe-1 bi bi-bank"></i>Page b</a></li>
+                <li><a class="nav-link" href="page-c.html"><i class="pe-1 bi bi-calendar2-heart"></i>Page c</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Exercise 2c -->
+<div class="container-fluid bg-light-subtle" id="zodiacSignGroup">
+    <!-- Title -->
+    <h1 class="d-inline-block p-3 bg-success-subtle rounded-2">Los signos del zodiaco</h1>
+    <!-- Section 1 -->
+    <div class="row p-2 gap-md-4 gap-2 justify-content-center">
+        <!-- Aquarius -->
+        <button aria-controls="infoAquarius"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoAquarius"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Acuario" class="img-fluid h-50" src="assets/img/zodiac-signs/acuario.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Acuario</span>
+        </button>
+        <!-- Pisces -->
+        <button aria-controls="infoPisces"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoPisces"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Piscis" class="img-fluid h-50" src="assets/img/zodiac-signs/piscis.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Piscis</span>
+        </button>
+        <!-- Aries -->
+        <button aria-controls="infoAries"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoAries"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Aries" class="img-fluid h-50" src="assets/img/zodiac-signs/aries.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Aries</span>
+        </button>
+        <!-- Taurus -->
+        <button aria-controls="infoTaurus"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoTaurus"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Tauro" class="img-fluid h-50" src="assets/img/zodiac-signs/tauro.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Tauro</span>
+        </button>
+        <!-- Gemini -->
+        <button aria-controls="infoGemini"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoGemini"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Gémini" class="img-fluid h-50" src="assets/img/zodiac-signs/gémini.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Gémini</span>
+        </button>
+        <!-- Cancer -->
+        <button aria-controls="infoCancer"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoCancer"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Cáncer" class="img-fluid h-50" src="assets/img/zodiac-signs/cáncer.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Cáncer</span>
+        </button>
+        <!-- Leo -->
+        <button aria-controls="infoLeo"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoLeo"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Leo" class="img-fluid h-50" src="assets/img/zodiac-signs/leo.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Leo</span>
+        </button>
+        <!-- Virgo -->
+        <button aria-controls="infoVirgo"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoVirgo"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Virgo" class="img-fluid h-50" src="assets/img/zodiac-signs/virgo.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Virgo</span>
+        </button>
+        <!-- Libra -->
+        <button aria-controls="infoLibra"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoLibra"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Libra" class="img-fluid h-50" src="assets/img/zodiac-signs/libra.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Libra</span>
+        </button>
+        <!-- Scorpio -->
+        <button aria-controls="infoScorpio"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoScorpio"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Escorpio" class="img-fluid h-50" src="assets/img/zodiac-signs/escorpio.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Escorpio</span>
+        </button>
+        <!-- Sagittarius -->
+        <button aria-controls="infoSagittarius"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoSagittarius"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Sagitario" class="img-fluid h-50" src="assets/img/zodiac-signs/sagitario.png">
+            <span class="px-2 fs-4 bg-success-subtle rounded">Sagitario</span>
+        </button>
+        <!-- Capricorn -->
+        <button aria-controls="infoCapricorn"
+                aria-expanded="false"
+                class="col-md-3 col-5 d-flex flex-column flex-lg-row align-items-center justify-content-lg-start justify-content-center gap-3 btn btn-outline-success text-muted border-0 rounded-2"
+                data-bs-target="#infoCapricorn"
+                data-bs-toggle="collapse"
+                type="button">
+            <img alt="Signo de Capricornio" class="img-fluid h-50" src="assets/img/zodiac-signs/capricornio.png">
+            <span class="px-2 fs-3 bg-success-subtle rounded">Capricornio</span>
+        </button>
+    </div>
+    <!-- Section 2 -->
+    <div class="row px-2">
+        <!-- Aquarius information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoAquarius">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Acuario - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Acuario</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident quidem
+                            quod repudiandae saepe vitae. Accusamus dolores fuga illo numquam quae.</p>
+                    </div>
+                    <img alt="Signo de Acuario" class="img-fluid h-50" src="assets/img/zodiac-signs/acuario.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Acuario - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Acuario</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Acuario" class="img-fluid h-50" src="assets/img/zodiac-signs/acuario.png">
+                </div>
+            </div>
+        </div>
+        <!-- Pisces information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoPisces">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Piscis - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Piscis</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Piscis" class="img-fluid h-50" src="assets/img/zodiac-signs/piscis.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Piscis - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Piscis</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Piscis" class="img-fluid h-50" src="assets/img/zodiac-signs/piscis.png">
+                </div>
+            </div>
+        </div>
+        <!-- Aries information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoAries">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Aries - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Aries</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Aries" class="img-fluid h-50" src="assets/img/zodiac-signs/aries.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Aries - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Aries</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Aries" class="img-fluid h-50" src="assets/img/zodiac-signs/aries.png">
+                </div>
+            </div>
+        </div>
+        <!-- Taurus information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoTaurus">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Tauro - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Tauro</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Tauro" class="img-fluid h-50" src="assets/img/zodiac-signs/tauro.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Tauro - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Tauro</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Tauro" class="img-fluid h-50" src="assets/img/zodiac-signs/tauro.png">
+                </div>
+            </div>
+        </div>
+        <!-- Gemini information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoGemini">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Gémini - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Gémini</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Gémini" class="img-fluid h-50" src="assets/img/zodiac-signs/gémini.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Gémini - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Gémini</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Gémini" class="img-fluid h-50" src="assets/img/zodiac-signs/gémini.png">
+                </div>
+            </div>
+        </div>
+        <!-- Cancer information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoCancer">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Cáncer - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Cáncer</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Cáncer" class="img-fluid h-50" src="assets/img/zodiac-signs/cáncer.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Cáncer - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Cáncer</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Cáncer" class="img-fluid h-50" src="assets/img/zodiac-signs/cáncer.png">
+                </div>
+            </div>
+        </div>
+        <!-- Leo information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoLeo">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Leo - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Leo</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Leo" class="img-fluid h-50" src="assets/img/zodiac-signs/leo.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Leo - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Leo</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Leo" class="img-fluid h-50" src="assets/img/zodiac-signs/leo.png">
+                </div>
+            </div>
+        </div>
+        <!-- Virgo information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoVirgo">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Virgo - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Virgo</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Virgo" class="img-fluid h-50" src="assets/img/zodiac-signs/virgo.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Virgo - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Virgo</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Virgo" class="img-fluid h-50" src="assets/img/zodiac-signs/virgo.png">
+                </div>
+            </div>
+        </div>
+        <!-- Libra information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoLibra">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Libra - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Libra</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Libra" class="img-fluid h-50" src="assets/img/zodiac-signs/libra.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Libra - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Libra</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Libra" class="img-fluid h-50" src="assets/img/zodiac-signs/libra.png">
+                </div>
+            </div>
+        </div>
+        <!-- Scorpio information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoScorpio">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Escorpio - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Escorpio</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Escorpio" class="img-fluid h-50" src="assets/img/zodiac-signs/escorpio.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Escorpio - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Escorpio</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Escorpio" class="img-fluid h-50" src="assets/img/zodiac-signs/escorpio.png">
+                </div>
+            </div>
+        </div>
+        <!-- Sagittarius information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoSagittarius">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Sagitario - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Sagitario</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Sagitario" class="img-fluid h-50" src="assets/img/zodiac-signs/sagitario.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Sagitario - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Sagitario</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Sagitario" class="img-fluid h-50" src="assets/img/zodiac-signs/sagitario.png">
+                </div>
+            </div>
+        </div>
+        <!-- Capricorn information -->
+        <div class="col-12 collapse px-0 py-2" data-bs-parent="#zodiacSignGroup" id="infoCapricorn">
+            <div class="card mb-0 border-success-subtle rounded-bottom-0">
+                <div class="card-header bg-success-subtle">
+                    <h2 class="mb-0">Capricornio - Día</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Capricornio</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Capricornio" class="img-fluid h-50"
+                         src="assets/img/zodiac-signs/capricornio.png">
+                </div>
+            </div>
+            <div class="card border-success-subtle rounded-top-0 border-top-0">
+                <div class="card-header bg-success-subtle rounded-top-0">
+                    <h2 class="mb-0">Capricornio - Mes</h2>
+                </div>
+                <div class="d-flex card-body align-items-start justify-content-between gap-5">
+                    <div>
+                        <h3 class="text-primary card-title">Capricornio</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque,
+                            cupiditate deleniti eius facere harum impedit neque nesciunt quibusdam rem veniam.</p>
+                    </div>
+                    <img alt="Signo de Capricornio" class="img-fluid h-50" src="assets/img/zodiac-signs/capricornio.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
